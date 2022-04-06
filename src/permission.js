@@ -1,9 +1,5 @@
 /*
- * @Author: Binggan
- * @Date: 2022-02-24 19:32:05
- * @LastEditors: Binggan
- * @LastEditTime: 2022-02-28 13:17:09
- * @Description:路由鉴权
+weiwei
  */
 import router from "./router";
 
