@@ -1,0 +1,190 @@
+.el-scrollbar .el-scrollbar__wrap {
+  overflow: auto;
+}
+
+.screen-adapter {
+  background: rgb(212, 212, 212);
+  color: #fff;
+  font-size: 30px;
+  .el-form-item {
+    margin-bottom: 70px;
+    &__error {
+      font-size: 30px;
+      padding-top: 8px;
+    }
+  }
+  .el-icon-loading {
+    font-size: 50px;
+    width: 50px;
+  }
+  .el-button [class*="el-icon-"] + span {
+    margin-left: 30px;
+  }
+
+  .el-input-group__append,
+  .el-input-group__prepend {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .el-input__inner {
+    background-color: transparent;
+  }
+
+  .el-table,
+  .el-table tr,
+  .el-table th,
+  .el-table td {
+    color: #ffffff;
+    background: transparent !important;
+    border: none !important;
+    font-family: "Microsoft YaHei", "微软雅黑";
+  }
+
+  .el-table thead tr {
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.05) !important;
+  }
+  .el-table tbody tr {
+    font-weight: 500;
+  }
+
+  .el-table th.el-table__cell {
+    background: transparent !important;
+  }
+  .el-table .el-table__row--striped {
+    background: rgba(255, 255, 255, 0.05) !important;
+  }
+  .el-table .el-table__row--striped:hover > td {
+    background: rgba(255, 255, 255, 0.1) !important;
+  }
+  .el-table {
+    tbody tr:hover > td {
+      background: rgba(225, 225, 225, 0.1) !important;
+    }
+  }
+
+  .el-table thead tr,
+  .el-table tbody tr {
+    height: 85px !important;
+    font-size: 26px !important;
+    line-height: 35px !important;
+  }
+  .el-table tbody tr button {
+    font-size: 26px !important;
+  }
+  .has-gutter tr th,
+  thead tr th {
+    color: #02d6f9 !important;
+    font-size: 28px !important;
+  }
+  .el-table--border::after,
+  .el-table--group::after,
+  .el-table::before {
+    background: none;
+  }
+  .el-table .cell {
+    white-space: nowrap;
+    line-height: normal;
+  }
+  .el-table tbody .warning td {
+    color: #ffc400 !important;
+  }
+  .el-table tbody .orange td {
+    color: #ff9100 !important;
+  }
+  .el-table__empty-text {
+    font-size: 30px !important;
+  }
+  .el-pagination {
+    text-align: right;
+    span,
+    i {
+      font-size: 28px !important;
+      color: #02d6f9 !important;
+    }
+    .el-pager li,
+    button,
+    span:not([class*="suffix"]) {
+      color: #fff !important;
+      font-size: 28px !important;
+      height: 50px;
+      line-height: 50px;
+      font-weight: normal;
+    }
+    .el-pager li:not(.disabled) {
+      min-width: 50px;
+      &.active {
+        color: #02d6f9 !important;
+      }
+    }
+    .btn-prev,
+    .btn-next {
+      width: 50px;
+    }
+    .btn-next,
+    .btn-prev,
+    .el-pager li {
+      margin: 0 8px;
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+
+    .el-pagination__sizes {
+      width: 130px;
+      .el-input {
+        width: 130px;
+      }
+    }
+    .el-pagination__editor.el-input {
+      width: 70px;
+      margin: 0 8px;
+    }
+    .el-pagination .el-input__suffix {
+      right: 3px;
+    }
+    .el-input {
+      height: 50px;
+      input,
+      textarea {
+        min-height: 50px;
+        font-size: 28px;
+        color: #00d6f9;
+        border: 1px solid #00d6f9;
+        border-radius: 12px;
+        background: transparent;
+      }
+    }
+    .el-select {
+      .el-select-dropdown {
+        width: 100% !important;
+        border: 2px solid #6db8f9;
+        background: #06284b;
+        .el-select-dropdown__item {
+          height: 60px;
+          line-height: 60px;
+          font-size: 25px;
+          color: #fafafa;
+          &.hover,
+          &.selected {
+            color: #00d6f9;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+  .el-table__footer-wrapper {
+    .el-table__footer {
+      .has-gutter {
+        tr {
+          td {
+            .cell {
+              color: #fff !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .el-table__body tr.current-row > td.el-table__cell {
+    background-color: red;
+  }
+}

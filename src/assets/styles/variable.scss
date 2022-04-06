@@ -1,0 +1,45 @@
+
+@import './mixin.scss';
+
+// $theme-color:#2c7dc4;
+$theme-color:#012a52;
+$theme-light-color:#4e9fd0;
+$theme-bg-color:rgb(10, 34, 43);
+$base-background-color:rgba(1, 42, 82);
+
+$screen-content-bg:rgba(1, 42, 82, 0.95);
+
+// 默认菜单主题风格
+$base-menu-color:#bfcbd9;
+$base-menu-color-active:#f4f4f5;
+$base-menu-background:#304156;
+$base-logo-title-color: #ffffff;
+$base-container-bg:#f7f7f7;
+
+$base-dark-white:rgba(255, 255, 255, 0.03);
+$base-light-white:rgba(255, 255, 255, 0.8);
+
+// $base-menu-gradient-background:line-gradient()
+/* theme color */
+$--color-primary: #007ddb;
+$--color-success: #13ce66;
+$--color-warning: #ffba00;
+$--color-danger: #ff4949;
+$--color-cyan: #02d6f9;
+$--color-brown: #e8745d;
+$--color-orange: #eb9e4e;
+$--color-green:#35ef73;
+
+// $--color-info: #1E1E1E;
+
+
+$--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+
+$--table-border:1px solid#dfe6ec;
+
+$top-header-height:46px;
